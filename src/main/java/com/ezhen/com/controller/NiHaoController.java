@@ -16,8 +16,8 @@ import java.util.Map;
 public class NiHaoController {
     @ResponseBody
     @RequestMapping("/nihao")
-    public String nihao(Map<String,String> map){
-        map.put("nihao","你好");
+    public String nihao(Map<String, String> map) {
+        map.put("nihao", "你好");
         return "ninhao";
     }
 }
